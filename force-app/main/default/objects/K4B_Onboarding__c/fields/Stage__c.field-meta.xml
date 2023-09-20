@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <description>Field to track Onboarding stage</description>
+    <externalId>false</externalId>
+    <label>Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not started</fullName>
+                <default>false</default>
+                <label>Not started</label>
+            </value>
+            <value>
+                <fullName>Intro call</fullName>
+                <default>false</default>
+                <label>Intro call</label>
+            </value>
+            <value>
+                <fullName>In progress</fullName>
+                <default>false</default>
+                <label>In progress</label>
+            </value>
+            <value>
+                <fullName>Account Configuration</fullName>
+                <default>false</default>
+                <label>Account Configuration</label>
+            </value>
+            <value>
+                <fullName>Admin training</fullName>
+                <default>false</default>
+                <label>Admin training</label>
+            </value>
+            <value>
+                <fullName>Team training</fullName>
+                <default>false</default>
+                <label>Team training</label>
+            </value>
+            <value>
+                <fullName>Completed Success</fullName>
+                <default>false</default>
+                <label>Completed Success</label>
+            </value>
+            <value>
+                <fullName>Completed Lost</fullName>
+                <default>false</default>
+                <label>Completed Lost</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
